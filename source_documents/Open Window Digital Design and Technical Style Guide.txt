@@ -1,0 +1,64 @@
+This style guide provides developers and designers with the technical and aesthetic standards for the **Open Window (OW)** website, ensuring brand consistency across all digital platforms.
+
+### **1. Brand Identity & Tone**
+Open Window is a leader in creative higher education, focused on achieving excellence through academic rigor and industry relevance. The digital tone is **forward-looking, professional, innovative, and premium**, balancing academic authority with practical, creative energy.
+
+### **2. Typography Rules**
+The official brand typeface is **Avenir Next**, chosen for its clean design and success on-screen. For web stability and performance, **Montserrat** is the primary Google Font alternative.
+
+| Element | Font Family | Size | Weight | Usage |
+| :--- | :--- | :--- | :--- | :--- |
+| **H1** | Montserrat | 40px | Bold (700) | Main visible heading on page |
+| **H2** | Montserrat | 25px | Semi-Bold (600) | Section headers / Subtitles |
+| **H3 - H5** | Montserrat | 20px | Semi-Bold (600) | Secondary headers |
+| **H6** | Montserrat | 16px | Medium (500) | Small accents or labels |
+| **Paragraph** | DM Sans / Montserrat | 16px | Regular (400) | Standard body text / blocks of copy |
+
+*   **Accents:** Quicksand may be used for specific subheaders or accent text.
+*   **Formatting Note:** Main structural call-to-actions should be capitalized (e.g., "EXPLORE", "APPLY NOW").
+
+### **3. Color Palettes**
+The palette is divided into a primary brand set and specific departmental colors to help users visually navigate the academic schools.
+
+#### **Primary Palette**
+*   **Dark Background:** #232323
+*   **Light Background:** #EDEDED
+*   **Accents:** These colors work effectively on both dark and light themes.
+
+#### **Departmental Colors**
+| Department | Primary Hex | School Mapping |
+| :--- | :--- | :--- |
+| **Yellow** | **#F1B33A** | School of Visual Communication |
+| **Blue** | **#27A9DD** | School of Film Arts |
+| **Purple** | **#AA6CAD** | School of Animation Arts |
+| **Orange** | **#E75A33** | School of Creative Technologies |
+
+### **4. UI Components & Elements**
+*   **Logo Usage:**
+    *   **Primary Logo:** Landscape layout; used for website headers and digital banners.
+    *   **Secondary Logo (Icon/Monogram):** Used for social media ads, thumbnails, and digital stamps.
+*   **Buttons:**
+    *   **Primary CTA:** Capitalized text, high contrast. Use departmental colors for subject-specific pages.
+    *   **Hover States:** Ensure subtle transitions between 80%, 60%, and 30% opacity of the brand colors.
+*   **Content Cards:** Use distinct card elements for "The Creatives" (student spotlights) and "Events".
+*   **Media Integration:** Prioritize video background capabilities and gallery grids for showcasing student portfolios.
+
+### **5. Layout Guidelines: Academic Department Pages**
+Each academic department page should follow a unified information architecture to aid user funneling.
+
+1.  **Hero Section:** High-resolution video or image showing the specific creative craft in action (e.g., filming for Film Arts).
+2.  **Definition:** A brief statement defining the department’s focus (e.g., Creative Technologies as "innovative study in user-centered design").
+3.  **Specializations:** List the majors available within that school (e.g., Communication Design, Illustration, and Photography for Visual Communication).
+4.  **Career Pathways:** A section highlighting "Careers Include" to connect academic study to industry outcomes.
+5.  **Equipment/Facilities:** Mention specialist spaces relevant to the department, such as the Acting Lab for Film Arts or the MakerSpace for Creative Technologies.
+
+### **6. Global Navigation & Footer**
+*   **Main Navigation Hierarchy:** Home > About Us > Qualifications > Campus Life > Admissions > Contact Us > Resources.
+*   **Utility Bar:** Include high-visibility links for "Apply Now," "Enquire," and the "Academic Calendar".
+*   **Compliance Footer:** Every page must include the mandatory regulatory text regarding OW's legal status as a Private Higher Education Institution and its accreditation with the CHE and SAQA.
+
+### **7. Developer Considerations**
+*   **Accessibility:** Ensure all color/text combinations meet contrast standards for both light (#EDEDED) and dark (#232323) themes.
+*   **Responsiveness:** Elements like the primary landscape logo must adapt to mobile domains using the secondary icon/monogram where space is limited.
+*   **Language Policy:** All site content and technical implementations must be in **English**.
+

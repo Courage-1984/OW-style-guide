@@ -1,0 +1,34 @@
+Headings and Font Weights for Open Window Institute 
+
+HTML Tag: 
+
+the <title> tag for search engines and browser tabs, and the <h1> tag for the main, visible heading on the page. These tags determine how important a heading is in the search engine browsing and determines how important information is. 
+
+H1 - 40px 
+
+H2 - 25px 
+
+H3 - 20px 
+
+H4 –20 px 
+
+H5 - 20px 
+
+H6  - 16px 
+
+P – 16 px 
+
+ 
+
+Font System:  
+
+Montserrat (Google font) - Google font work better because then you dont have to stress aboout the fonts break on the user end but the official font is (Aviner Next) the closest Google font is Montserrat . 
+
+Main Heading – Bold (700) 
+
+Subtitles & Headers – Semi Bold (600) 
+
+Subheading – Medium (500) 
+
+Body/ Paragraph Text – Regular/Normal (400) 
+

@@ -1,0 +1,61 @@
+# Open Window Website Content & Architecture Audit
+
+**Source:** www.openwindow.co.za & ow.uxidevelopment.co.za
+**Date Compiled:** March 2026
+
+## 1. Brand Identity & Positioning
+
+* **Tagline/Main Heading:** Educational Leader in Creative Arts & Technologies.
+* **Sub-headline:** Private Higher Education offering Postgraduate, Degree and Higher Certificate qualifications in Creative Fields.
+* **Brand Introduction:** Welcome to Open Window, South Africa’s leading institute for creative and digital arts. Established in 1993, Open Window has grown from its origins as a specialist art school into a respected private higher education institution focused on visual communication, film arts, animation, and interaction design.
+* **Vision:** It is the vision of Open Window to be a leader and trendsetter in the education sector of South Africa and internationally by achieving product excellence through academic rigour and industry relevance, the use of cutting-edge technology and the continuous upgrading of infrastructure in a customer-centric environment.
+* **Mission:** To deliver creative and critical thinkers who possess the technical, dynamic, professional and multi-skilled capabilities globally required by the creative industries. Achieved through superior educational models, cutting-edge technology, and international competitive outcomes.
+* **Teaching Methodology:** "Creative Hybrid" – A dynamic multimodal teaching approach blending virtual engagement with on-campus experiences (Campus-First, Multimodal Rotation, and Virtual-First).
+
+## 2. Global Navigation Structure (Information Architecture)
+
+The primary navigation hierarchy is structured to funnel prospective students, current students, and faculty.
+
+* **Home**
+* **About Us:** Alumni Success Stories, Graduate Portfolios, Awards, Faculty, Campus Life.
+* **Qualifications (The Core Product):**
+* *Postgraduate:* Honours in Visual Communication, Postgraduate Diploma in Creative Practice.
+* *Degree:* Visual Communication Design, Film Arts, Creative Technologies, Game Design & Animation.
+* *Higher Certificate:* 3D Animation, Digital Film Production, Graphic Design, Photography & Videography, User Interface Design.
+
+
+* **Campus Life:** Centurion Campus, Stellenbosch Campus, Blairgowrie Creative Hub, Events, Clubs.
+* **Admissions:** Apply Now, Enquire, Recognition of Prior Learning (RPL).
+* **Contact Us**
+* **Resources:** Academic & Learning, Fees & Financial, Campus Guide, International & General Docs.
+* **Utility/Top Bar Links:** Community Dashboard, Apply Now, Academic Calendar.
+
+## 3. Key Content Pillars & Department Definitions
+
+The site relies heavily on visually categorizing the four main academic departments. NotebookLLM should understand these distinctions for UI design:
+
+* **Visual Communication:** "A progressive platform for learners to explore Communication Design, Illustration, and Photography."
+* **Film Arts:** "Audio-visual communication, with skills that enable students to work in tomorrow's demanding time-based media environment."
+* **Animation Arts:** "Film Arts degree with a choice of three major subjects such as 3D Animation, Game Design and Motion Design."
+* **Creative Technologies:** "Innovative study in the diverse and evolving fields of Interactive Development, User Experience Design, and Industrial Design."
+
+## 4. Copywriting & Tone of Voice Observations
+
+* **Tone:** Forward-looking, academic yet highly practical, professional, innovative, and premium.
+* **Formatting:** Capitalized main structural call-to-actions (e.g., "EXPLORE", "APPLY NOW", "ENQUIRE").
+* **Microcopy:** Section headers are direct ("Explore Our Qualifications", "How to Apply", "Our Campuses", "Industry-Leading Lecturers", "Curriculum Built for the Real World").
+* **Naming Conventions:** Focus on "Creative Hybrid", "MakerSpace", "NOW Gallery", emphasizing physical and digital creation.
+
+## 5. UX & UI Functional Requirements (Inferred from Staging)
+
+* **Typography Sourcing:** The staging site pulls Google Fonts: `Montserrat` (Primary/Headers), `Quicksand` (Accents/Subheaders), and `DM Sans` (Body text/Legibility). (Cross-reference this with your existing *Headings and Font Weights* text file).
+* **Card/Grid Elements:** The site utilizes distinct content cards for "The Creatives" (e.g., Student Spotlights like Lara Reid, Jade Rawson) and "Events" (Stardust on Broken Ground, Riso Roulette, Figure Friday Remix).
+* **Media Integration:** The design relies heavily on video background capabilities, high-resolution SVG logos, and gallery grids for student portfolio showcases.
+
+## 6. Regulatory Footer & Compliance Text
+
+*(Crucial for the web footer design in the style guide)*
+"The Open Window (Pty) Ltd (company registration 1973/015860/07) is registered as a Private Higher Education Institution with the Department of Higher Education and Training (DHET) with Registration Certificate Number: 2000/HE07/016. The Open Window (Pty) Ltd courses are accredited by the Council on Higher Education (CHE) and registered with the South African Qualifications Authority (SAQA) under the Higher Education Act, 1997. The Open Window (Pty) Ltd is a SETA provider accredited with MICTSETA..."
+
+---
+
