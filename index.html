@@ -293,7 +293,7 @@
     /* ─── RAINBOW BAR ─── */
     .rainbow-bar {
       height: 3px;
-      background: linear-gradient(90deg, #F1B33A 0%, #27A9DD 33%, #AA6CAD 66%, #E75A33 100%);
+      background: linear-gradient(90deg, #F1B33A 0%, #E75A33 33%, #27A9DD 66%, #AA6CAD 100%);
     }
 
     /* ─── GRADIENT TEXT ─── */
@@ -1500,14 +1500,14 @@
             style="background: rgba(241,179,58,0.1); color: var(--ow-color-visual); border: 1px solid rgba(241,179,58,0.2); padding: 6px 14px; border-radius: var(--ow-radius-full); font-family: var(--ow-font-primary); font-size: 10px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;">Visual
             Communication</span>
           <span
+            style="background: rgba(231,90,51,0.1); color: var(--ow-color-tech); border: 1px solid rgba(231,90,51,0.2); padding: 6px 14px; border-radius: var(--ow-radius-full); font-family: var(--ow-font-primary); font-size: 10px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;">Creative
+            Technologies</span>
+          <span
             style="background: rgba(39,169,221,0.1); color: var(--ow-color-film); border: 1px solid rgba(39,169,221,0.2); padding: 6px 14px; border-radius: var(--ow-radius-full); font-family: var(--ow-font-primary); font-size: 10px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;">Film
             Arts</span>
           <span
             style="background: rgba(170,108,173,0.1); color: var(--ow-color-animation); border: 1px solid rgba(170,108,173,0.2); padding: 6px 14px; border-radius: var(--ow-radius-full); font-family: var(--ow-font-primary); font-size: 10px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;">Animation
             Arts</span>
-          <span
-            style="background: rgba(231,90,51,0.1); color: var(--ow-color-tech); border: 1px solid rgba(231,90,51,0.2); padding: 6px 14px; border-radius: var(--ow-radius-full); font-family: var(--ow-font-primary); font-size: 10px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;">Creative
-            Technologies</span>
         </div>
       </div>
     </div>
@@ -1594,6 +1594,16 @@
           </div>
         </div>
 
+        <div class="color-card" onclick="copyColor(this,'#E75A33')" title="Click to copy">
+          <div class="color-swatch" style="background:#E75A33;"></div>
+          <div class="color-info">
+            <div class="color-name">Creative Technologies</div>
+            <div class="color-hex">#E75A33</div>
+            <div class="color-rgb">RGB(231, 90, 51)</div>
+            <div class="copy-badge">✓ Copied!</div>
+          </div>
+        </div>
+
         <div class="color-card" onclick="copyColor(this,'#27A9DD')" title="Click to copy">
           <div class="color-swatch" style="background:#27A9DD;"></div>
           <div class="color-info">
@@ -1614,16 +1624,6 @@
           </div>
         </div>
 
-        <div class="color-card" onclick="copyColor(this,'#E75A33')" title="Click to copy">
-          <div class="color-swatch" style="background:#E75A33;"></div>
-          <div class="color-info">
-            <div class="color-name">Creative Technologies</div>
-            <div class="color-hex">#E75A33</div>
-            <div class="color-rgb">RGB(231, 90, 51)</div>
-            <div class="copy-badge">✓ Copied!</div>
-          </div>
-        </div>
-
       </div>
 
       <!-- Opacity Scale -->
@@ -1638,16 +1638,16 @@
             onclick="setOpacityAccent('visual')">
             <span style="display:inline-block;width:18px;height:18px;border-radius:4px;background:#F1B33A;"></span>
           </button>
+          <button type="button" class="chip-button" data-opacity-accent-btn="creative"
+            onclick="setOpacityAccent('creative')">
+            <span style="display:inline-block;width:18px;height:18px;border-radius:4px;background:#E75A33;"></span>
+          </button>
           <button type="button" class="chip-button" data-opacity-accent-btn="film" onclick="setOpacityAccent('film')">
             <span style="display:inline-block;width:18px;height:18px;border-radius:4px;background:#27A9DD;"></span>
           </button>
           <button type="button" class="chip-button" data-opacity-accent-btn="animation"
             onclick="setOpacityAccent('animation')">
             <span style="display:inline-block;width:18px;height:18px;border-radius:4px;background:#AA6CAD;"></span>
-          </button>
-          <button type="button" class="chip-button" data-opacity-accent-btn="creative"
-            onclick="setOpacityAccent('creative')">
-            <span style="display:inline-block;width:18px;height:18px;border-radius:4px;background:#E75A33;"></span>
           </button>
         </div>
         <span style="font-size:11px;color:var(--ow-color-muted);opacity:0.9;">Click the colour chips to change the
@@ -1705,16 +1705,16 @@
           <button type="button" class="chip-button" data-hover-accent-btn="visual" onclick="setHoverAccent('visual')">
             <span style="display:inline-block;width:18px;height:18px;border-radius:4px;background:#F1B33A;"></span>
           </button>
+          <button type="button" class="chip-button" data-hover-accent-btn="creative"
+            onclick="setHoverAccent('creative')">
+            <span style="display:inline-block;width:18px;height:18px;border-radius:4px;background:#E75A33;"></span>
+          </button>
           <button type="button" class="chip-button" data-hover-accent-btn="film" onclick="setHoverAccent('film')">
             <span style="display:inline-block;width:18px;height:18px;border-radius:4px;background:#27A9DD;"></span>
           </button>
           <button type="button" class="chip-button" data-hover-accent-btn="animation"
             onclick="setHoverAccent('animation')">
             <span style="display:inline-block;width:18px;height:18px;border-radius:4px;background:#AA6CAD;"></span>
-          </button>
-          <button type="button" class="chip-button" data-hover-accent-btn="creative"
-            onclick="setHoverAccent('creative')">
-            <span style="display:inline-block;width:18px;height:18px;border-radius:4px;background:#E75A33;"></span>
           </button>
         </div>
         <span style="font-size:11px;color:var(--ow-color-muted);opacity:0.9;">Click the colour chips to change the
@@ -1995,15 +1995,15 @@
           <button class="btn" style="background:#F1B33A;color:#232323;border-color:#F1B33A;"
             onmouseover="this.style.background='rgba(241,179,58,0.8)'"
             onmouseout="this.style.background='#F1B33A'">VISUAL COMMS</button>
+          <button class="btn" style="background:#E75A33;color:#fff;border-color:#E75A33;"
+            onmouseover="this.style.background='rgba(231,90,51,0.8)'"
+            onmouseout="this.style.background='#E75A33'">TECHNOLOGIES</button>
           <button class="btn" style="background:#27A9DD;color:#fff;border-color:#27A9DD;"
             onmouseover="this.style.background='rgba(39,169,221,0.8)'" onmouseout="this.style.background='#27A9DD'">FILM
             ARTS</button>
           <button class="btn" style="background:#AA6CAD;color:#fff;border-color:#AA6CAD;"
             onmouseover="this.style.background='rgba(170,108,173,0.8)'"
             onmouseout="this.style.background='#AA6CAD'">ANIMATION</button>
-          <button class="btn" style="background:#E75A33;color:#fff;border-color:#E75A33;"
-            onmouseover="this.style.background='rgba(231,90,51,0.8)'"
-            onmouseout="this.style.background='#E75A33'">TECHNOLOGIES</button>
         </div>
       </div>
     </section>
@@ -2206,6 +2206,19 @@
         </div>
 
         <div class="dept-card">
+          <div class="dept-card-stripe" style="background:#E75A33;"></div>
+          <div class="dept-card-body">
+            <span class="dept-tag" style="background:rgba(231,90,51,0.12);color:#E75A33;">Creative Technologies</span>
+            <div class="dept-card-title">UX Design, Interaction &amp; Industrial Design</div>
+            <div class="dept-card-desc">Design digital and physical experiences at the intersection of technology and
+              creativity.</div>
+            <button class="btn btn-sm"
+              style="margin-top:auto;background:transparent;color:#E75A33;border-color:rgba(231,90,51,0.35);">EXPLORE
+              →</button>
+          </div>
+        </div>
+
+        <div class="dept-card">
           <div class="dept-card-stripe" style="background:#27A9DD;"></div>
           <div class="dept-card-body">
             <span class="dept-tag" style="background:rgba(39,169,221,0.12);color:#27A9DD;">Film Arts</span>
@@ -2227,19 +2240,6 @@
               audiences.</div>
             <button class="btn btn-sm"
               style="margin-top:auto;background:transparent;color:#AA6CAD;border-color:rgba(170,108,173,0.35);">EXPLORE
-              →</button>
-          </div>
-        </div>
-
-        <div class="dept-card">
-          <div class="dept-card-stripe" style="background:#E75A33;"></div>
-          <div class="dept-card-body">
-            <span class="dept-tag" style="background:rgba(231,90,51,0.12);color:#E75A33;">Creative Technologies</span>
-            <div class="dept-card-title">UX Design, Interaction &amp; Industrial Design</div>
-            <div class="dept-card-desc">Design digital and physical experiences at the intersection of technology and
-              creativity.</div>
-            <button class="btn btn-sm"
-              style="margin-top:auto;background:transparent;color:#E75A33;border-color:rgba(231,90,51,0.35);">EXPLORE
               →</button>
           </div>
         </div>
@@ -2268,6 +2268,20 @@
           <div class="card" style="padding:18px 20px;">
             <div
               style="font-family:var(--ow-font-primary);font-size:11px;font-weight:700;letter-spacing:0.13em;text-transform:uppercase;color:var(--ow-color-light);margin-bottom:10px;">
+              Creative Tech Card</div>
+            <div style="font-size:11px;color:var(--ow-color-muted);display:flex;flex-direction:column;gap:4px;">
+              <div>Border radius: <code style="font-size:11px;">12px</code></div>
+              <div>Padding: <code style="font-size:11px;">28px all sides</code></div>
+              <div>Stripe colour: <code style="font-size:11px;">#E75A33</code></div>
+              <div>Tag background: <code style="font-size:11px;">rgba(231,90,51,0.12)</code></div>
+              <div>Tag text: <code style="font-size:11px;">#E75A33</code></div>
+              <div>Button border: <code style="font-size:11px;">rgba(231,90,51,0.35)</code></div>
+            </div>
+          </div>
+
+          <div class="card" style="padding:18px 20px;">
+            <div
+              style="font-family:var(--ow-font-primary);font-size:11px;font-weight:700;letter-spacing:0.13em;text-transform:uppercase;color:var(--ow-color-light);margin-bottom:10px;">
               Film Arts Card</div>
             <div style="font-size:11px;color:var(--ow-color-muted);display:flex;flex-direction:column;gap:4px;">
               <div>Border radius: <code style="font-size:11px;">12px</code></div>
@@ -2290,20 +2304,6 @@
               <div>Tag background: <code style="font-size:11px;">rgba(170,108,173,0.12)</code></div>
               <div>Tag text: <code style="font-size:11px;">#AA6CAD</code></div>
               <div>Button border: <code style="font-size:11px;">rgba(170,108,173,0.35)</code></div>
-            </div>
-          </div>
-
-          <div class="card" style="padding:18px 20px;">
-            <div
-              style="font-family:var(--ow-font-primary);font-size:11px;font-weight:700;letter-spacing:0.13em;text-transform:uppercase;color:var(--ow-color-light);margin-bottom:10px;">
-              Creative Tech Card</div>
-            <div style="font-size:11px;color:var(--ow-color-muted);display:flex;flex-direction:column;gap:4px;">
-              <div>Border radius: <code style="font-size:11px;">12px</code></div>
-              <div>Padding: <code style="font-size:11px;">28px all sides</code></div>
-              <div>Stripe colour: <code style="font-size:11px;">#E75A33</code></div>
-              <div>Tag background: <code style="font-size:11px;">rgba(231,90,51,0.12)</code></div>
-              <div>Tag text: <code style="font-size:11px;">#E75A33</code></div>
-              <div>Button border: <code style="font-size:11px;">rgba(231,90,51,0.35)</code></div>
             </div>
           </div>
 
@@ -2336,6 +2336,24 @@
         </div>
 
         <div class="news-card">
+          <div class="news-img" style="background: linear-gradient(135deg, #1B0E08 0%, #2A1410 100%);">
+            <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="rgba(231,90,51,0.2)" stroke-width="1.5">
+              <path d="M4 7h16M4 12h16M4 17h10" />
+              <circle cx="18.5" cy="17" r="1.2" />
+            </svg>
+          </div>
+          <div class="news-card-body">
+            <div class="news-meta" style="color:#E75A33;">Events · Apr 2026</div>
+            <div class="news-title">Campus Open Night: Meet the Creatives &amp; Alumni</div>
+            <p style="font-size:13px;color:var(--ow-color-muted);line-height:1.65;margin-bottom:16px;">Prospective
+              students explore studios, attend lightning talks, and connect with industry partners on campus.</p>
+            <a href="#"
+              style="margin-top:auto;font-family:var(--ow-font-primary);font-size:10px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--ow-color-tech);text-decoration:none;">READ
+              MORE →</a>
+          </div>
+        </div>
+
+        <div class="news-card">
           <div class="news-img" style="background: linear-gradient(135deg, #091624 0%, #0D1E2E 100%);">
             <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="rgba(39,169,221,0.2)"
               stroke-width="1.5">
@@ -2350,24 +2368,6 @@
               students debut their collaborative short film at DIFF 2026 in Durban.</p>
             <a href="#"
               style="margin-top:auto;font-family:var(--ow-font-primary);font-size:10px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--ow-color-film);text-decoration:none;">READ
-              MORE →</a>
-          </div>
-        </div>
-
-        <div class="news-card">
-          <div class="news-img" style="background: linear-gradient(135deg, #1B0E08 0%, #2A1410 100%);">
-            <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="rgba(231,90,51,0.2)" stroke-width="1.5">
-              <path d="M4 7h16M4 12h16M4 17h10" />
-              <circle cx="18.5" cy="17" r="1.2" />
-            </svg>
-          </div>
-          <div class="news-card-body">
-            <div class="news-meta" style="color:#E75A33;">Events · Apr 2026</div>
-            <div class="news-title">Campus Open Night: Meet the Creatives &amp; Alumni</div>
-            <p style="font-size:13px;color:var(--ow-color-muted);line-height:1.65;margin-bottom:16px;">Prospective
-              students explore studios, attend lightning talks, and connect with industry partners on campus.</p>
-            <a href="#"
-              style="margin-top:auto;font-family:var(--ow-font-primary);font-size:10px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--ow-color-tech);text-decoration:none;">READ
               MORE →</a>
           </div>
         </div>
@@ -2543,7 +2543,8 @@
     <section id="voice" class="section" style="background: #1F1F1F;">
       <div class="section-eyebrow">06 — Brand</div>
       <h2 class="section-heading">Vision, Mission &amp; Voice</h2>
-      <p class="section-desc">Aligned to the OW Brand Guidelines (2022): the vision and mission wording below is approved
+      <p class="section-desc">Aligned to the OW Brand Guidelines (2022): the vision and mission wording below is
+        approved
         copy that can be used on the website. This section is focused on messaging only; the UI shown here is not an
         implementation guide for layout or styling.</p>
 
@@ -2728,7 +2729,7 @@
               mismatched backgrounds</li>
             <li style="font-size:13px;color:var(--ow-color-light);display:flex;gap:10px;"><span
                 style="color:#E75A33;flex-shrink:0;font-weight:700;">→</span>Deviate from approved palette values
-              (#F1B33A, #27A9DD, #AA6CAD, #E75A33)</li>
+              (#F1B33A, #E75A33, #27A9DD, #AA6CAD)</li>
             <li style="font-size:13px;color:var(--ow-color-light);display:flex;gap:10px;"><span
                 style="color:#E75A33;flex-shrink:0;font-weight:700;">→</span>Use unapproved typefaces when Avenir Next
               or approved web fallback is available</li>
@@ -2963,7 +2964,7 @@
           </div>
         </div>
 
-        <div style="height:2px;background:linear-gradient(90deg,#F1B33A,#27A9DD,#AA6CAD,#E75A33);"></div>
+        <div style="height:2px;background:linear-gradient(90deg,#F1B33A,#E75A33,#27A9DD,#AA6CAD);"></div>
 
         <div
           style="background:#161616;border-top:1px solid rgba(255,255,255,0.05);padding:10px 18px;display:flex;justify-content:flex-end;align-items:center;gap:2px;flex-wrap:wrap;">
@@ -3050,7 +3051,7 @@
                 Campaign Highlight
               </div>
               <div
-                style="height:3px;width:80%;background:linear-gradient(90deg,#F1B33A,#27A9DD,#AA6CAD,#E75A33);border-radius:999px;margin:0 auto;">
+                style="height:3px;width:80%;background:linear-gradient(90deg,#F1B33A,#E75A33,#27A9DD,#AA6CAD);border-radius:999px;margin:0 auto;">
               </div>
             </div>
           </div>
@@ -3072,7 +3073,7 @@
             <div>Styles: <code style="font-size:11px;">solid brand orange or rainbow gradient</code></div>
             <div>Gradient direction: <code style="font-size:11px;">90deg</code></div>
             <div>Gradient values: <code
-                style="font-size:11px;">linear-gradient(90deg, #F1B33A, #27A9DD, #AA6CAD, #E75A33)</code></div>
+                style="font-size:11px;">linear-gradient(90deg, #F1B33A, #E75A33, #27A9DD, #AA6CAD)</code></div>
             <div>Alignment: <code style="font-size:11px;">centred under the H1</code></div>
             <div>Spacing above: <code style="font-size:11px;">8px below H1</code></div>
             <div>Spacing below: <code style="font-size:11px;">24px before body copy</code></div>
@@ -3131,7 +3132,7 @@
           <div
             style="height:180px;border-radius:12px;background:linear-gradient(135deg,#111111,#252525);border:1px solid #343434;position:relative;overflow:hidden;margin-bottom:16px;">
             <div
-              style="position:absolute;inset:0;background:linear-gradient(135deg,#F1B33A,#27A9DD,#AA6CAD,#E75A33);opacity:0.55;">
+              style="position:absolute;inset:0;background:linear-gradient(135deg,#F1B33A,#E75A33,#27A9DD,#AA6CAD);opacity:0.55;">
             </div>
             <div
               style="position:absolute;left:0;right:0;bottom:0;padding:14px 18px;background:linear-gradient(to top,rgba(0,0,0,0.78),transparent);">
@@ -3474,7 +3475,7 @@
           /* ─── RAINBOW ACCENT BAR ─── */
           .ow-rainbow-bar {
           height: 3px;
-          background: linear-gradient(90deg, #F1B33A 0%, #27A9DD 33%, #AA6CAD 66%, #E75A33 100%);
+          background: linear-gradient(90deg, #F1B33A 0%, #E75A33 33%, #27A9DD 66%, #AA6CAD 100%);
           }
 
           /* ─── BRAND LOGO SLOT ─── */
